@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4E5E5">
+
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Registro de usuarios"
+           android:fontFamily="sans-serif-medium"
+           android:textSize="20dp"
+           android:layout_marginTop="50dp"
+           android:gravity="center"/>
+
+            <TextView
+            android:id="@+id/idTVHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="Ingrese sus datos"
+            android:textAlignment="center"
+            android:textColor="@color/material_dynamic_primary0"
+            android:textSize="18sp" />
+
+
+       <androidx.appcompat.widget.AppCompatEditText
+           android:id="@+id/EmailN"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="50dp"
+           android:hint="Ingrese direccion de correo"
+           android:textColor="#666666"
+           android:textColorHint="@color/seed"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/PasswordN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:inputType="textPassword"
+        android:hint="Cree una contraseña"
+
+        android:textColor="#666666"
+        android:textColorHint="@color/seed"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Registrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Crear cuenta"
+        android:layout_marginHorizontal="30dp"
+        android:textColorHint="#FFFFFF"
+        android:backgroundTint="#03A9F4"
+
+        />
+   </LinearLayout>
